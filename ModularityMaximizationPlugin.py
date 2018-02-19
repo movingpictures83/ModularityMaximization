@@ -1,3 +1,6 @@
+import PyPluMA
+PyPluMA.dependency("Clusterize")
+
 import sys
 import math
 #import numpy
