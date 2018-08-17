@@ -2,7 +2,7 @@
 # Language: Python
 # Input: prefix (for network and cluster CSV files)
 # Output: none (screen only)
-# Dependency: ClusterizePlugin (Available at: https://github.com/movingpictures83/Clusterize)
+# Dependency: Clusterize Plugin (Available at: https://github.com/movingpictures83/Clusterize)
 # Tested with: PluMA 1.0, Python 2.7
 
 PluMA plugin that runs Modularity Maximization (Newman, 2006) for community detection.
