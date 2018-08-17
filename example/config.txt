@@ -1,0 +1,2 @@
+Prefix plugins/ModularityMaximization/example/
+Plugin ModularityMaximization inputfile corrP outputfile none
