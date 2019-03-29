@@ -43,15 +43,15 @@ class ModularityMaximizationPlugin(ClusterizePlugin):
       cout = self.n*pout
       difference = cin - cout
       threshold = math.sqrt(q*(cin + (q-1)*cout))
-      print "Number of Clusters: ", q
-      print "Threshold: ", threshold
-      print "Cin: ", cin
-      print "Cout: ", cout
-      print "Difference: ", difference
+      print("Number of Clusters:  "+str(q))
+      print("Threshold: "+str(threshold))
+      print("Cin:  "+str(cin))
+      print("Cout: "+str(cout))
+      print("Difference: "+str(difference))
       if (difference > threshold):
-         print "Community structure is reliable"
+         print("Community structure is reliable")
       else:
-         print "Community structure is unreliable"
+         print("Community structure is unreliable")
 
 
 

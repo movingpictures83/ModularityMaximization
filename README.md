@@ -3,7 +3,7 @@
 # Input: prefix (for network and cluster CSV files)
 # Output: none (screen only)
 # Dependency: Clusterize Plugin (Available at: https://github.com/movingpictures83/Clusterize)
-# Tested with: PluMA 1.0, Python 2.7
+# Tested with: PluMA 1.0, Python 3.6
 
 PluMA plugin that runs Modularity Maximization (Newman, 2006) for community detection.
 Modularity Maximization requires both a weighted network and a set of clusters to run,
